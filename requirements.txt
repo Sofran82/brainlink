@@ -1,0 +1,16 @@
+# BrainLink Lite Monitor - Python dependencies
+#
+# Recommended Python version: CPython 3.11, 64-bit on Windows.
+# Install from the project root with:
+#   python -m pip install -r requirements.txt
+#
+# BrainLinkParser is a separate compiled extension supplied by the official
+# BrainLinkParser-Python project. It is not installed by pip from this file.
+# Make sure a compatible Windows x64 / Python 3.11 BrainLinkParser.pyd and
+# any required companion files are available on Python's import path, as
+# expected by brainlink/parser.py.
+
+numpy
+pyqtgraph
+PyQt6
+pyserial
